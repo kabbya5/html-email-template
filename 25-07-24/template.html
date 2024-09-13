@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+	<title>HTML Email Template Project</title>
+   <style type="text/css">
+   	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+      table {
+         border-spacing: 0;
+      }
+      td {
+         padding: 0;
+      }
+      p {
+         font-size: 15px;
+      }
+      img {
+         border: 0;
+      }
+      a {
+         color: #e8fbfa;
+         text-decoration: none;
+      }
+
+		@media screen and (max-width: 599.98px) {
+         .two-columns .padding,
+         .two-third-columns .padding,
+         .three-columns .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+         }
+         img.two-col-img {
+            width: 300px!important;
+            max-width: 300px!important;
+         }
+         .two-third-columns .padding.first {
+            padding-bottom: 0!important;
+         }
+         .two-third-columns .padding.last {
+            padding-top: 0!important;
+         }
+         img.one-third-col-img,
+         img.three-col-img-last {
+            width: 200px!important;
+            max-width: 200px!important;
+         }
+         .two-third-columns .content {
+            text-align: center!important;
+         }
+      }
+      @media screen and (max-width: 399.98px) {
+         img.three-col-img {
+            width: 200px!important;
+            max-width: 200px!important;
+         }
+      }
+
+      /* Custom Dark Mode Colors */
+      :root {
+         color-scheme: light dark;
+         supported-color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         body, center, table {
+            background: #2d2d2d!important;
+            color: #ffffff!important;
+         }
+         .darkmode-transparent {
+            background-color: transparent!important;
+         }
+      }
+   </style>
+   
+	<!--[if (gte mso 9)|(IE)]>
+		<style type="text/css">
+			table {border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+<body style="Margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         body {background-color:#dde0e1!important;}
+         body, table, td, p, a {font-family: sans-serif, Arial, Helvitica!important;}
+      </style>
+   <![endif]-->
+
+   <center style="width: 100%;table-layout: fixed;background-color:#dde0e1;padding-bottom: 40px;">
+      <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+
+         <!-- Preheader (remove comment) -->
+         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+            <!-- Add Preheader Text Here (85-100 characters in length) -->
+         </div>
+         <!-- End Preheader (remove comment) -->
+
+         <!--[if (gte mso 9)|(IE)]>
+            <table width="600" align="center" style="border-spacing:0;color:#565656;">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+         <table align="center" style="border-spacing:0;color:#565656;font-family: 'Lato', sans-serif, Arial, Helvitica!important;background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 600px;" role="presentation">
+
+
+<!-- START LOGO -->
+            <tr>
+               <td style="padding: 0;">
+                  <table width="100%" style="border-spacing: 0;background-color: #eaf6fb;" role="presentation">
+                     <tr>
+                        <td align="center" style="text-align: center;padding:10px 20px;">
+                           <a href="https://example.com" target="_blank">
+                                <img src="https://i.postimg.cc/VvJDT8Xn/Logo.png"  alt="logo" title="LOGO" width="270" border="0">
+                            </a>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- START LOGO -->
+
+<!-- START BANNER -->
+            <tr>
+               <td style="padding: 0;">
+                  <table width="100%" style="border-spacing: 0;background-color: #fafdfe;" role="presentation">
+
+                     <tr>
+                        <td style="width: 100%;" width="100%">
+                           <a href="https://example.com" target="_blank"><img src="https://i.postimg.cc/RVXZGxXX/image.png" alt="" width="600" border="0" style="max-width: 600px;"></a>
+                        </td>
+                     </tr>
+
+                  </table>
+               </td>
+            </tr>
+<!-- START BANNER -->
+
+<!-- START CONTENT -->
+        <tr>
+            <td style="padding: 0;">
+                <table width="100%" style="border-spacing: 0;background-color: #fafdfe;" role="presentation">
+
+                    <tr>
+                        <td style="text-align: center; padding:0px 30px;" align="center">
+                            <p style="color: #393e44;font-weight: 700;line-height: 30px; font-family: Arial;
+                            text-align: center;font-size:22px;"> Привет, [Имя]! </p>
+
+                            <p style="color: #393e44;font-weight: 400;line-height: 23px; font-family: Arial;
+                            text-align: center;font-size: 15px;"> 
+                                Если ты читаешь это письмо с телефона, <span style="font-weight: 700;"> обрати внимание,</span>  в  <br>
+                                каком положении находится голова. Скорее всего, она <br>
+                                наклонена, и это очень опасно. Если ты читаешь с компьютера, <br>
+                                нюансы тоже есть, если при этом ты не держишь осанку.
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+<!-- END COONTENT -->
+
+<!-- START BANNER -->
+            <tr>
+               <td background="https://i.postimg.cc/x11hGW4G/Vector.png" width="600" height="332" style="background-position: center top;">
+
+                  <!--[if (gte mso 9)|(IE)]>
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:332px;">
+                     <v:fill type="tile" src="https://i.postimg.cc/x11hGW4G/Vector.png" />
+                     <v:textbox inset="0,0,0,0">
+                  <![endif]-->
+
+                  <table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
+                     <tr>
+                        <td width="600" align="center" valign="top">
+                           <table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation" width="100%" align="top">
+                              <tr>
+                                 <td align="center" width="100%" valign="top">
+                                    <table class="darkmode-transparent" role="presentation" valign="top">
+                                       <tr valign="top" style="vertical-align:top">
+                                          <td style="width:150px;text-align: center;" align="center">
+                                             <img src="https://i.postimg.cc/4x8dBRNX/Group-6.png" alt="" width="70">
+                                          </td>
+
+                                          <td style="width:100%;">
+                                             <p style="color: #429DC3;font-weight: 400;line-height: 23px; font-family: Arial;
+                                                   text-align: center;font-size: 22px;"> 
+                                                   Итак, второй подбородок <br>
+                                                   и кольца Венеры на шее появляются:
+                                             </p>
+
+                                             <p style="color: #393e44;font-weight: 400;line-height: 25px; font-family: Arial;
+                                             font-size: 18px;text-align: left;"> 
+                                                <img src="https://i.postimg.cc/CLwX3Xnr/Star-1.png" alt="" height="20px"> 
+                                                если ты часто сидишь или лежишь,  <br> 
+                                                опустив голову к телефону 
+                                             </p>
+
+                                             <p style="color: #393e44;font-weight: 400;line-height: 25px; font-family: Arial;
+                                             font-size: 18px;text-align: left;"> 
+                                                <img src="https://i.postimg.cc/CLwX3Xnr/Star-1.png" alt="" height="20px"> 
+                                                сутулишься и не держишь осанку;
+                                             </p>
+
+                                             <p style="color: #393e44;font-weight: 400;line-height: 25px; font-family: Arial;
+                                             font-size: 18px;text-align: left;"> 
+                                                <img src="https://i.postimg.cc/CLwX3Xnr/Star-1.png" alt="" height="20px"> 
+                                                у твоей мамы или бабушек были такие проблемы;
+                                             </p>
+
+                                             <p style="color: #393e44;font-weight: 400;line-height: 25px; font-family: Arial;
+                                             font-size: 18px;text-align: left;"> 
+                                                <img src="https://i.postimg.cc/CLwX3Xnr/Star-1.png" alt="" height="20px"> 
+                                                у твоего организма есть дисбаланс гормонов;
+                                             </p>
+
+                                             <p style="color: #393e44;font-weight: 400;line-height: 25px; font-family: Arial;
+                                             font-size: 18px;text-align: left;"> 
+                                                <img src="https://i.postimg.cc/CLwX3Xnr/Star-1.png" alt="" height="20px"> 
+                                                и еще масса других причин. 
+                                             </p>
+                                          </td>
+
+                                          <td style="width:70; text-align: center;" align="center">
+                                             <img src="https://i.postimg.cc/fTfkS0Gt/Group-193.png" alt="" width="50px">
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+
+                  <!--[if (gte mso 9)|(IE)]>
+                     </v:textbox>
+                     </v:rect>
+                  <![endif]-->
+               </td>
+            </tr>
+<!-- END BANNER -->
+
+
+         </table>
+         <!--[if (gte mso 9)|(IE)]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+      </div>
+   </center>
+
+</body>
+</html>
